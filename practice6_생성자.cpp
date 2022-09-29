@@ -25,10 +25,10 @@ double Circle::getArea() {	// Circle 클래스 안의 getArea() 정의
 int main()
 {
 	Circle Playground;		// Playground라는 이름의 Circle 클래스 생성
-	double area = Playground.getArea();					// 자료형이 double인 area 변수 생성하고 getArea() 로 정의해준다
-	cout << "Playground 면적은 : " << Seoulcyber.getArea() << endl;		// Circle 클래스의 기본값으로 반지름이 1인 원의 넓이 출력
+	double area = Playground.getArea();			// 자료형이 double인 area 변수 생성하고 getArea() 로 정의해준다
+	cout << "Playground 면적은 : " << Seoulcyber.getArea() << endl;	// Circle 클래스의 기본값으로 반지름이 1인 원의 넓이 출력
 
 	Circle University(15);	// University라는 이름의 Circle 클래스 생성, ### 클래스 안에 정수가 들어가있다 ###
-	area = University.getArea();						// area 라는 변수에 University 클래스의 면적 구하는 객체로 정의 (위에서 double로 자료형 정해져서 수정 x)
-	cout << "University 면적은 : " << area << endl;				// University()에 15를 넣어기 때문에 반지름이 15인 원의 넓이를 출력
+	area = University.getArea();				// area 라는 변수에 University 클래스의 면적 구하는 객체로 정의 (위에서 double로 자료형 정해져서 수정 x)
+	cout << "University 면적은 : " << area << endl;			// University()에 15를 넣어기 때문에 반지름이 15인 원의 넓이를 출력
 }
