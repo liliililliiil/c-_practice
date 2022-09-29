@@ -1,5 +1,3 @@
-﻿// C++ start (글자 출력해보기)
-
 #include <iostream>
 
 int main()
