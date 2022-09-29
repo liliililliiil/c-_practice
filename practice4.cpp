@@ -17,9 +17,9 @@ double Circle::getArea() {			// Circle의 getArea() 객체를 정의해준다
 
 int main()
 {
-	Circle Seoulcyber;
-	Seoulcyber.radius = 1;
-	double area = Seoulcyber.getArea();
+	Circle Playground;
+	Playground.radius = 1;
+	double area = Playground.getArea();
 	cout << "Seoulcyber 면적은 : " << area << endl;
 
 	Circle University;
