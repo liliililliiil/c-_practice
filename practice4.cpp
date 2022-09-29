@@ -20,7 +20,7 @@ int main()
 	Circle Playground;
 	Playground.radius = 1;
 	double area = Playground.getArea();
-	cout << "Seoulcyber 면적은 : " << area << endl;
+	cout << "Playground 면적은 : " << area << endl;
 
 	Circle University;
 	University.radius = 60;
